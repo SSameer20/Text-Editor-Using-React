@@ -32,12 +32,13 @@ export default function TextArea() {
         <>  
             <div className="container">
             
-                <label htmlFor="exampleFormControlTextarea1" className="form-label">Text Editor</label>
+                <label htmlFor="exampleFormControlTextarea1" className="form-label">Type Here</label>
                 <textarea className="form-control" id="exampleFormControlTextarea1" value={text} onChange={handleOnChange} rows="10"></textarea>
                 <button className="btn btn-primary my-5" onClick={upperCase}>To Upper Case</button>
                 <button className="btn btn-primary my-5" onClick={lowerCase}>To Upper Case</button>
                 <button className="btn btn-primary my-20" onClick={clear}>Clear</button>
-                <p>{text.split(' ').length} words {text.length} letters </p>
+                <p>{text.split(" ").length} words {text.length} letters </p>
+                
 
             </div>
         </>
