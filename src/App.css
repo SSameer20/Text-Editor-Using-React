@@ -1,0 +1,17 @@
+.Nav-bar{
+  float: left;
+}
+
+ul{
+  list-style: none;
+  display: inline-flex;
+  
+  
+}
+
+li a{
+  text-decoration: none;
+  padding-right: 5vw;
+ 
+  
+}

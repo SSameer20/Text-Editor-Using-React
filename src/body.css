@@ -1,0 +1,20 @@
+.footer{
+    width: 100vw;
+    height: 20vh;
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+}
+ul{
+    list-style: none;
+    color: white;
+    display: inline;
+    margin-top: 40px;
+
+    
+}
+
+ul li{
+    margin-left: 40px;
+}
+
