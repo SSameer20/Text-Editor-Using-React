@@ -37,6 +37,7 @@ export default function TextArea() {
                 <button className="btn btn-primary my-5" onClick={upperCase}>To Upper Case</button>
                 <button className="btn btn-primary my-5" onClick={lowerCase}>To Upper Case</button>
                 <button className="btn btn-primary my-20" onClick={clear}>Clear</button>
+                <p>{text.split(' ').length} words {text.length} letters </p>
 
             </div>
         </>
